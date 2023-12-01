@@ -13,6 +13,7 @@ import tkinter as tk
 from tkinter import ttk
 from tkcalendar import DateEntry
 from tkinter import messagebox
+import numpy as np
 
 
 def filtrer_et_modifier_cpn():
@@ -22,8 +23,8 @@ def filtrer_et_modifier_cpn():
     # Convertir les dates de type str en objets datetime
     date_debut = datetime.strptime(date_debut_str, '%Y-%m-%d')
     date_fin = datetime.strptime(date_fin_str, '%Y-%m-%d')
-
-    jours_selectionnes = [jour_var.get() for jour_var in jours_vars]
+    jours_selectionnes = np.array([jours_semaine[i] if jours_vars[i].get() == "1" else "pas selectionné" for i, jours in enumerate(jours_vars)])
+    print(jours_selectionnes)
 
     # Vérifier si au moins un jour de la semaine est sélectionné
     if not any(jours_selectionnes):
@@ -34,7 +35,7 @@ def filtrer_et_modifier_cpn():
     df_filtre = df_trace[
         (df_trace['Jour'] >= date_debut) &
         (df_trace['Jour'] <= date_fin) &
-        df_trace['Jour_de_la_semaine'].isin(jours_semaine)
+        df_trace['Jour_de_la_semaine'].isin(jours_selectionnes)
     ]
 
     # Modifier le contenu du fichier .cpn
@@ -63,7 +64,6 @@ df_trace = df_trace.loc[:, ~df_trace.columns.str.contains('^Unnamed')]
 #lecture du fichier .cpn existant
 with open('chwapi.cpn', 'r') as fichier:
     cpn_file = fichier.read()
-print(cpn_file)
 
 # Création de l'interface utilisateur
 root = tk.Tk()
@@ -95,10 +95,9 @@ jours_vars = [tk.StringVar(value=True) for _ in jours_semaine]
 for i, jour in enumerate(jours_semaine):
     chk_jour = ttk.Checkbutton(root, text=jour, variable=jours_vars[i])
     chk_jour.grid(row=i // 2 + 3, column=i % 2, padx=10, pady=5, sticky='w')
-
 # Bouton pour appliquer la filtration et la modification
 bouton_appliquer = ttk.Button(root, text="Appliquer", command=filtrer_et_modifier_cpn)
-bouton_appliquer.grid(row=len(jours_semaine) // 2 + 3, column=0, columnspan=2, pady=10)
+bouton_appliquer.grid(row=len(jours_semaine) // 2 + 4, column=0, columnspan=2, pady=10)
 
 # Lancer l'interface utilisateur
 root.mainloop()

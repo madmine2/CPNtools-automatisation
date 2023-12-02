@@ -89,18 +89,36 @@ label_jours = ttk.Label(root, text="Choisir les jours de la semaine:")
 label_jours.grid(row=2, column=0, columnspan=2, padx=10, pady=10)
 
 jours_semaine = df_trace['Jour_de_la_semaine'].unique()
-
 jours_vars = [tk.StringVar(value=True) for _ in jours_semaine]
 
 for i, jour in enumerate(jours_semaine):
     chk_jour = ttk.Checkbutton(root, text=jour, variable=jours_vars[i])
     chk_jour.grid(row=i // 2 + 3, column=i % 2, padx=10, pady=5, sticky='w')
+
 # Bouton pour appliquer la filtration et la modification
 bouton_appliquer = ttk.Button(root, text="Appliquer", command=filtrer_et_modifier_cpn)
 bouton_appliquer.grid(row=len(jours_semaine) // 2 + 4, column=0, columnspan=2, pady=10)
 
 # Lancer l'interface utilisateur
 root.mainloop()
+
+
+import xml.etree.ElementTree as ET
+
+def convert_cpnxml_to_xml(cpnxml_filename, xml_filename):
+    # Charger le fichier .cpnxml
+    tree = ET.parse(cpnxml_filename)
+    root = tree.getroot()
+
+    # Modifier le contenu ou la structure XML si nécessaire
+    # ...
+
+    # Sauvegarder en tant que fichier .xml
+    tree.write(xml_filename)
+
+# Exemple d'utilisation
+convert_cpnxml_to_xml('new_cpn_data.cpn', 'new_cpn_data.xml')
+
 
 
 #ici le code sans la mini interface pour choisir le jour

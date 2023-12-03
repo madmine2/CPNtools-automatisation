@@ -34,7 +34,7 @@ def write_mxml_file(fichier_mxml, input_folder):
                 cpnxml_path = os.path.join(input_folder, filename)
                 id, xml = read_cpnxml_file(cpnxml_path)
 
-                fichier.write(f'        <ProcessInstance id="{id}" description="Simulated process instance"> n')
+                fichier.write(f'        <ProcessInstance id="{id}" description="Simulated process instance"> \n')
                 fichier.write(f'{xml} \n')
                 fichier.write('		</ProcessInstance> \n')
         fichier.write('    </Process> \n')

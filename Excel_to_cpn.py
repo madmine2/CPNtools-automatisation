@@ -103,21 +103,6 @@ bouton_appliquer.grid(row=len(jours_semaine) // 2 + 4, column=0, columnspan=2, p
 root.mainloop()
 
 
-import xml.etree.ElementTree as ET
-
-def convert_cpnxml_to_xml(cpnxml_filename, xml_filename):
-    # Charger le fichier .cpnxml
-    tree = ET.parse(cpnxml_filename)
-    root = tree.getroot()
-
-    # Modifier le contenu ou la structure XML si nécessaire
-    # ...
-
-    # Sauvegarder en tant que fichier .xml
-    tree.write(xml_filename)
-
-# Exemple d'utilisation
-convert_cpnxml_to_xml('new_cpn_data.cpn', 'new_cpn_data.xml')
 
 
 

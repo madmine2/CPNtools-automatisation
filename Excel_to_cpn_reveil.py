@@ -40,13 +40,14 @@ def filtrer_et_modifier_cpn():
     ]
 
     # Modifier le contenu du fichier .cpn pour les nouvelles données
-    expression_reguliere = r'<initmark id="ID1414975589">.*? version="4\.0\.1">1`(.*?)</text>'
+    expression_reguliere = r'<initmark id="ID1414975589">.*? version="4.0.1">(.*?)</text>'
     valeurs_colonne_1 = df_filtre['1`'].tolist()
     valeurs_colonne_1_concatenees = "".join(map(str, valeurs_colonne_1))
+    valeurs_colonne_1_concatenees = "1`"+valeurs_colonne_1_concatenees[:-4]
     valeurs_colonne_1_modifiees = "\n" + valeurs_colonne_1_concatenees.replace("`(", "`\n(")
-    modele_substitution = 'version="4.0.1">1`{}</text>'.format(valeurs_colonne_1_modifiees.replace(", ", ",\n"))
+    modele_substitution = 'version="4.0.1">{}</text>'.format(valeurs_colonne_1_modifiees.replace(", ", ",\n"))
     contenu_cpn_modifie = re.sub(
-        r'(<initmark id="ID1414975589">.*? version="4\.0\.1">1`)(.*?)(</text>)',
+        r'(<initmark id="ID1414975589">.*? version="4.0.1">)(.*?)(</text>)',
         lambda match: match.group(1) + valeurs_colonne_1_modifiees.replace(", ", ",\n") + match.group(3),
         cpn_file,
         flags=re.DOTALL
@@ -56,6 +57,7 @@ def filtrer_et_modifier_cpn():
     expression_reguliere_reveil = r'<initmark id="ID1415353577">.*? version="4.0.1">(.*?)</text>'
     valeurs_colonne_reveil = df_filtre['Reveil'].tolist()
     valeurs_colonne_reveil_concatenees = "".join(map(str, valeurs_colonne_reveil))
+    valeurs_colonne_reveil_concatenees = "1`"+valeurs_colonne_reveil_concatenees[:-4]
     valeurs_colonne_reveil_modifiees = "\n" + valeurs_colonne_reveil_concatenees.replace("`(", "`\n(")
     modele_substitution_reveil = 'version="4.0.1">{}</text>'.format(valeurs_colonne_reveil_modifiees.replace(", ", ",\n"))
     contenu_cpn_modifie_reveil = re.sub(
@@ -66,7 +68,7 @@ def filtrer_et_modifier_cpn():
     )
     
     # Écrire le contenu modifié dans un nouveau fichier .cpn
-    with open('chwapi_avec_reveil_modifié.cpn', 'w') as fichier_cpn_modifie:
+    with open('chwapi_avec_reveil_modifie.cpn', 'w') as fichier_cpn_modifie:
         fichier_cpn_modifie.write(contenu_cpn_modifie_reveil)
 
 

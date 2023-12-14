@@ -42,5 +42,6 @@ def write_mxml_file(fichier_mxml, input_folder):
         fichier.write('    </Process> \n')
         fichier.write('</WorkflowLog> \n')
 
-
-write_mxml_file(fichier_mxml = 'new_data_mxml.mxml', input_folder = "logsCPN")
+fichier_mxml = 'new_data_mxml.mxml'
+input_folder = "logsCPN"
+write_mxml_file(fichier_mxml, input_folder)

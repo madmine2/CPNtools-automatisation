@@ -2,6 +2,8 @@ import csv
 import os
 import xml.etree.ElementTree as ET
 from lxml import etree
+import pm4py
+import pandas as pd
     
 def read_cpnxml_file(fichier_cpnxml):
     # Lire la première partie (nombre ou autre donnée)
@@ -45,3 +47,5 @@ def write_mxml_file(fichier_mxml, input_folder):
 fichier_mxml = 'new_data_mxml.mxml'
 input_folder = "logsCPN"
 write_mxml_file(fichier_mxml, input_folder)
+
+

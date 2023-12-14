@@ -44,8 +44,45 @@ def write_mxml_file(fichier_mxml, input_folder):
         fichier.write('    </Process> \n')
         fichier.write('</WorkflowLog> \n')
 
+def creerdata(file_path):
+    # Ajouter le chemin au chemin d'environnement
+    os.environ["PATH"] += os.pathsep + "/opt/homebrew/bin"
+    
+    # Charger le fichier XML
+    tree = ET.parse(file_path)
+    root = tree.getroot()
+    
+    # Initialiser les listes pour stocker les données
+    data = {
+        "name": [],
+        "Element": [],
+        "Timestamp": []
+    }
+    
+    # Parcourir les éléments dans le fichier XML
+    for process_instance in root.findall(".//ProcessInstance"):
+        concept_name = process_instance.get("id")
+    
+        for entry in process_instance.findall(".//AuditTrailEntry"):
+            workflow_element = entry.find("./WorkflowModelElement").text
+            timestamp = entry.find("./Timestamp").text
+    
+            data["name"].append(concept_name)
+            data["Element"].append(f'\n\n{workflow_element}')
+            data["Timestamp"].append(pd.to_datetime(timestamp))  # Convertir en type datetime
+    
+    # Créer un DataFrame à partir des listes
+    df = pd.DataFrame(data)
+    
+    # Retourner le DataFrame
+    return df
+    
 fichier_mxml = 'new_data_mxml.mxml'
 input_folder = "logsCPN"
 write_mxml_file(fichier_mxml, input_folder)
+
+df = creerdata(fichier_mxml)
+pm4py.view_dotted_chart(df, format="png", attributes=["Timestamp", "name", "Element"])
+
 
 

@@ -46,9 +46,9 @@ def write_mxml_file(fichier_mxml, input_folder):
 
 def creerdata(file_path):
     # Ajouter le chemin au chemin d'environnement
-    os.environ["PATH"] += os.pathsep + "/opt/homebrew/bin"
+    # os.environ["PATH"] += os.pathsep + "/opt/homebrew/bin"
     
-    # Charger le fichier XML
+    # Charger le fichier MXML
     tree = ET.parse(file_path)
     root = tree.getroot()
     
@@ -59,7 +59,7 @@ def creerdata(file_path):
         "Timestamp": []
     }
     
-    # Parcourir les éléments dans le fichier XML
+    # Parcourir les éléments dans le fichier MXML
     for process_instance in root.findall(".//ProcessInstance"):
         concept_name = process_instance.get("id")
     

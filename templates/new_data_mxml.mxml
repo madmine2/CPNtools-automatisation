@@ -2,26 +2,30 @@
 <WorkflowLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://is.tm.tue.nl/research/processmining/SAMXML.xsd" description="CPN Tools simulation log"> 
     <Source program="CPN Tools simulation"/>
      <Process id="DEFAULT" description="Simulated process"> 
-        <ProcessInstance id="1009" description="Simulated process instance"> 
+        <ProcessInstance id="10" description="Simulated process instance"> 
 		</ProcessInstance> 
-        <ProcessInstance id="1035" description="Simulated process instance"> 
+        <ProcessInstance id="1008" description="Simulated process instance"> 
 		</ProcessInstance> 
-        <ProcessInstance id="1049" description="Simulated process instance"> 
+        <ProcessInstance id="1032" description="Simulated process instance"> 
 		</ProcessInstance> 
-        <ProcessInstance id="1104" description="Simulated process instance"> 
+        <ProcessInstance id="1056" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="1057" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="1062" description="Simulated process instance"> 
 <AuditTrailEntry>
-<Data><Attribute name = "0">0 </Attribute>
-<Attribute name = "1">24 </Attribute>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">22 </Attribute>
  </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
 <Originator>3</Originator>
 </AuditTrailEntry>
 		</ProcessInstance> 
-        <ProcessInstance id="1105" description="Simulated process instance"> 
+        <ProcessInstance id="1064" description="Simulated process instance"> 
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">16 </Attribute>
+<Attribute name = "0">25 </Attribute>
  </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
@@ -29,7 +33,7 @@
 </AuditTrailEntry>
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">16 </Attribute>
+<Attribute name = "0">25 </Attribute>
  </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
@@ -37,36 +41,264 @@
 </AuditTrailEntry>
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">16 </Attribute>
+<Attribute name = "0">25 </Attribute>
  </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
 <Originator>3</Originator>
 </AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">25 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">25 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">25 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">25 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:31:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">25 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:33:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">25 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:35:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">25 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:35:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
 		</ProcessInstance> 
-        <ProcessInstance id="1106" description="Simulated process instance"> 
+        <ProcessInstance id="1065" description="Simulated process instance"> 
 <AuditTrailEntry>
 <Data><Attribute name = "0">0 </Attribute>
-<Attribute name = "1">18 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:08:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:08:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Prenarcose</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:16:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:19:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:35:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:37:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:39:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:39:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="1067" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">19 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">19 </Attribute>
+ </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:26:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">19 </Attribute>
+ </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:26:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">19 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:28:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">19 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:28:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">19 </Attribute>
+ </Data><WorkflowModelElement>Prenarcose</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:30:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">19 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:33:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">19 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:52:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">19 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:54:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">19 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:56:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">19 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:56:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="1069" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">34 </Attribute>
  </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
 <Originator>3</Originator>
 </AuditTrailEntry>
 		</ProcessInstance> 
-        <ProcessInstance id="1107" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "1">23 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>3</Originator>
-</AuditTrailEntry>
+        <ProcessInstance id="1070" description="Simulated process instance"> 
 		</ProcessInstance> 
-        <ProcessInstance id="1108" description="Simulated process instance"> 
+        <ProcessInstance id="1074" description="Simulated process instance"> 
 <AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
+<Data><Attribute name = "0">0 </Attribute>
 <Attribute name = "1">15 </Attribute>
  </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
 <EventType >complete</EventType>
@@ -74,628 +306,1856 @@
 <Originator>3</Originator>
 </AuditTrailEntry>
 		</ProcessInstance> 
-        <ProcessInstance id="1109" description="Simulated process instance"> 
+        <ProcessInstance id="1075" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:33:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:33:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:35:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:35:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Prenarcose</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:37:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:40:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:56:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:58:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:00:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">16 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:00:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="1076" description="Simulated process instance"> 
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "1">23 </Attribute>
+<Attribute name = "1">20 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">20 </Attribute>
+ </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:40:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">20 </Attribute>
+ </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:40:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">20 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:42:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">20 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:42:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">20 </Attribute>
+ </Data><WorkflowModelElement>Prenarcose</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:44:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">20 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:47:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">20 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:07:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">20 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:09:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">20 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:11:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">20 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:11:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="1081" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">12 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:37:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="1089" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">11 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">11 </Attribute>
+ </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:19:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">11 </Attribute>
+ </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:19:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">11 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:21:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">11 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:21:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">11 </Attribute>
+ </Data><WorkflowModelElement>Prenarcose</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:23:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">11 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:26:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">11 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:37:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">11 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:39:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">11 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:41:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">11 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:41:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="1090" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "1">19 </Attribute>
  </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
 <Originator>3</Originator>
 </AuditTrailEntry>
 		</ProcessInstance> 
-        <ProcessInstance id="1110" description="Simulated process instance"> 
+        <ProcessInstance id="1092" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">9 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>3</Originator>
+</AuditTrailEntry>
 		</ProcessInstance> 
-        <ProcessInstance id="1111" description="Simulated process instance"> 
+        <ProcessInstance id="15" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>6</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>6</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>6</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>6</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>6</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>6</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:54:00.000+01:00</Timestamp>
+<Originator>6</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:56:00.000+01:00</Timestamp>
+<Originator>6</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:58:00.000+01:00</Timestamp>
+<Originator>6</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:58:00.000+01:00</Timestamp>
+<Originator>6</Originator>
+</AuditTrailEntry>
 		</ProcessInstance> 
-        <ProcessInstance id="1112" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="1113" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="1114" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="1115" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="1541" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="1553" description="Simulated process instance"> 
+        <ProcessInstance id="1525" description="Simulated process instance"> 
 <AuditTrailEntry>
 <Data><Attribute name = "1">0 </Attribute>
-<Attribute name = "0">22 </Attribute>
+<Attribute name = "0">14 </Attribute>
  </Data><WorkflowModelElement>Salle d'attente enfants</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
 <Originator>12</Originator>
 </AuditTrailEntry>
 		</ProcessInstance> 
-        <ProcessInstance id="1560" description="Simulated process instance"> 
+        <ProcessInstance id="156" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">62 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">62 </Attribute>
+ </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">62 </Attribute>
+ </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">62 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:08:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">62 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:08:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">62 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:06:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">62 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T03:10:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">62 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T03:12:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">62 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T03:14:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">62 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T03:14:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
 		</ProcessInstance> 
-        <ProcessInstance id="1573" description="Simulated process instance"> 
+        <ProcessInstance id="158" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">84 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:12:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="1615" description="Simulated process instance"> 
 <AuditTrailEntry>
 <Data><Attribute name = "1">0 </Attribute>
-<Attribute name = "0">29 </Attribute>
+<Attribute name = "0">48 </Attribute>
  </Data><WorkflowModelElement>Salle d'attente enfants</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>11</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="1660" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="1690" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "4">34 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>4</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="1739" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="175" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="1758" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">125 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>14</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">125 </Attribute>
+ </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>14</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">125 </Attribute>
+ </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>14</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">125 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>14</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">125 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>14</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">125 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>14</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">125 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T03:12:00.000+01:00</Timestamp>
+<Originator>14</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">125 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T03:14:00.000+01:00</Timestamp>
+<Originator>14</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">125 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T03:16:00.000+01:00</Timestamp>
+<Originator>14</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">125 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T03:16:00.000+01:00</Timestamp>
+<Originator>14</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="176" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="1765" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="1766" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="181" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">104 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">104 </Attribute>
+ </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">104 </Attribute>
+ </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">104 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">104 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">104 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">104 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:50:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">104 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:52:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">104 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:54:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">104 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:54:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="182" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">113 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">113 </Attribute>
+ </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">113 </Attribute>
+ </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">113 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:08:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">113 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:08:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">113 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:37:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">113 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:30:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">113 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:32:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">113 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:34:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">113 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:34:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="183" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">158 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="187" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">32 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:06:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">32 </Attribute>
+ </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:37:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">32 </Attribute>
+ </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:37:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">32 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:39:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">32 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:39:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">32 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:17:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">32 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:49:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">32 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:51:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">32 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:53:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">32 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:53:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="189" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">93 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:40:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">93 </Attribute>
+ </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:17:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">93 </Attribute>
+ </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:17:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">93 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:19:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">93 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:19:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">93 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:36:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">93 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T06:09:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">93 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T06:11:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">93 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T06:13:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">93 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T06:13:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="192" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">118 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>2</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="1922" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="1923" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">79 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>5</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">79 </Attribute>
+ </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>5</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">79 </Attribute>
+ </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>5</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">79 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>5</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">79 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>5</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">79 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>5</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">79 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:25:00.000+01:00</Timestamp>
+<Originator>5</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">79 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:27:00.000+01:00</Timestamp>
+<Originator>5</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">79 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:29:00.000+01:00</Timestamp>
+<Originator>5</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">79 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:29:00.000+01:00</Timestamp>
+<Originator>5</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="1927" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="1929" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">46 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:26:00.000+01:00</Timestamp>
+<Originator>5</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="1930" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="1931" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">184 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>5</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="194" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="2107" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="2112" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="2119" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="2171" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="2181" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">92 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>17</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">92 </Attribute>
+ </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>17</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">92 </Attribute>
+ </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>17</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">92 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>17</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">92 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>17</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">92 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>17</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">92 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:38:00.000+01:00</Timestamp>
+<Originator>17</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">92 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:40:00.000+01:00</Timestamp>
+<Originator>17</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">92 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:42:00.000+01:00</Timestamp>
+<Originator>17</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">92 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:42:00.000+01:00</Timestamp>
+<Originator>17</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="2184" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="2187" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "0">104 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:33:00.000+01:00</Timestamp>
+<Originator>17</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="2253" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">135 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">135 </Attribute>
+ </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">135 </Attribute>
+ </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">135 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:08:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">135 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:08:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">135 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:12:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">135 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T03:27:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">135 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T03:29:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">135 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T03:31:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">135 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T03:31:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="2254" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="2282" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">96 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>16</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">96 </Attribute>
+ </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>16</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">96 </Attribute>
+ </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>16</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">96 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>16</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">96 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>16</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">96 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>16</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">96 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:42:00.000+01:00</Timestamp>
+<Originator>16</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">96 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:44:00.000+01:00</Timestamp>
+<Originator>16</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">96 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:46:00.000+01:00</Timestamp>
+<Originator>16</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">96 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:46:00.000+01:00</Timestamp>
+<Originator>16</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="2287" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "3">36 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>16</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="2290" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="2293" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="2493" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="2498" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "3">49 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>4</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="2561" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">64 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:19:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">64 </Attribute>
+ </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:06:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">64 </Attribute>
+ </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:06:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">64 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:08:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">64 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:08:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">64 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:55:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">64 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T03:59:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">64 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:01:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">64 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:03:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">64 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:03:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="2562" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="2565" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="2566" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="2742" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="2770" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">0 </Attribute>
+<Attribute name = "5">109 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>12</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="2807" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">49 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
 <Originator>12</Originator>
 </AuditTrailEntry>
 		</ProcessInstance> 
-        <ProcessInstance id="1740" description="Simulated process instance"> 
+        <ProcessInstance id="2876" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">167 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:17:00.000+01:00</Timestamp>
+<Originator>12</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="2908" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="2912" description="Simulated process instance"> 
 <AuditTrailEntry>
 <Data><Attribute name = "1">0 </Attribute>
-<Attribute name = "0">49 </Attribute>
+<Attribute name = "0">52 </Attribute>
  </Data><WorkflowModelElement>Salle d'attente enfants</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>16</Originator>
+<Originator>9</Originator>
 </AuditTrailEntry>
 <AuditTrailEntry>
 <Data><Attribute name = "1">0 </Attribute>
-<Attribute name = "0">49 </Attribute>
+<Attribute name = "0">52 </Attribute>
  </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>16</Originator>
+<Originator>9</Originator>
 </AuditTrailEntry>
 <AuditTrailEntry>
 <Data><Attribute name = "1">0 </Attribute>
-<Attribute name = "0">49 </Attribute>
+<Attribute name = "0">52 </Attribute>
  </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>16</Originator>
+<Originator>9</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "1">0 </Attribute>
+<Attribute name = "0">52 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>9</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "1">0 </Attribute>
+<Attribute name = "0">52 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>9</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "1">0 </Attribute>
+<Attribute name = "0">52 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>9</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "1">0 </Attribute>
+<Attribute name = "0">52 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:58:00.000+01:00</Timestamp>
+<Originator>9</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "1">0 </Attribute>
+<Attribute name = "0">52 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:00:00.000+01:00</Timestamp>
+<Originator>9</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "1">0 </Attribute>
+<Attribute name = "0">52 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:02:00.000+01:00</Timestamp>
+<Originator>9</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "1">0 </Attribute>
+<Attribute name = "0">52 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:02:00.000+01:00</Timestamp>
+<Originator>9</Originator>
 </AuditTrailEntry>
 		</ProcessInstance> 
-        <ProcessInstance id="1779" description="Simulated process instance"> 
+        <ProcessInstance id="2936" description="Simulated process instance"> 
 <AuditTrailEntry>
-<Data><Attribute name = "0">0 </Attribute>
-<Attribute name = "3">222 </Attribute>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">51 </Attribute>
  </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>14</Originator>
+<Originator>9</Originator>
 </AuditTrailEntry>
 		</ProcessInstance> 
-        <ProcessInstance id="1780" description="Simulated process instance"> 
+        <ProcessInstance id="2937" description="Simulated process instance"> 
 		</ProcessInstance> 
-        <ProcessInstance id="1781" description="Simulated process instance"> 
+        <ProcessInstance id="2938" description="Simulated process instance"> 
 		</ProcessInstance> 
-        <ProcessInstance id="1782" description="Simulated process instance"> 
+        <ProcessInstance id="2944" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="417" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="444" description="Simulated process instance"> 
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">71 </Attribute>
+<Attribute name = "0">73 </Attribute>
  </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>14</Originator>
+<Originator>8</Originator>
 </AuditTrailEntry>
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">71 </Attribute>
+<Attribute name = "0">73 </Attribute>
  </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>14</Originator>
+<Originator>8</Originator>
 </AuditTrailEntry>
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">71 </Attribute>
+<Attribute name = "0">73 </Attribute>
  </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>14</Originator>
+<Originator>8</Originator>
 </AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="1783" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="1784" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="1940" description="Simulated process instance"> 
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">75 </Attribute>
+<Attribute name = "0">73 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">73 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">73 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">73 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:19:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">73 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:21:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">73 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:23:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">73 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T02:23:00.000+01:00</Timestamp>
+<Originator>8</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="491" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="519" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">122 </Attribute>
  </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>5</Originator>
+<Originator>15</Originator>
 </AuditTrailEntry>
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">75 </Attribute>
+<Attribute name = "0">122 </Attribute>
  </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>5</Originator>
+<Originator>15</Originator>
 </AuditTrailEntry>
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">75 </Attribute>
+<Attribute name = "0">122 </Attribute>
  </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>5</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="1941" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">98 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>5</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="1942" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">0 </Attribute>
-<Attribute name = "0">102 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>5</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="200" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="201" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">331 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>2</Originator>
+<Originator>15</Originator>
 </AuditTrailEntry>
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">331 </Attribute>
+<Attribute name = "0">122 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>15</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">122 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>15</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">122 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>15</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">122 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T03:08:00.000+01:00</Timestamp>
+<Originator>15</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">122 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T03:10:00.000+01:00</Timestamp>
+<Originator>15</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">122 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T03:12:00.000+01:00</Timestamp>
+<Originator>15</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">122 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T03:12:00.000+01:00</Timestamp>
+<Originator>15</Originator>
+</AuditTrailEntry>
+		</ProcessInstance> 
+        <ProcessInstance id="521" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="529" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="681" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
  </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
 <EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>2</Originator>
+<Timestamp>1970-01-01T01:12:00.000+01:00</Timestamp>
+<Originator>10</Originator>
 </AuditTrailEntry>
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">331 </Attribute>
+<Attribute name = "0">47 </Attribute>
  </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
 <EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>2</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="202" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="203" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="2120" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="2121" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="2188" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">88 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>17</Originator>
+<Timestamp>1970-01-01T01:12:00.000+01:00</Timestamp>
+<Originator>10</Originator>
 </AuditTrailEntry>
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">88 </Attribute>
- </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
 <EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>17</Originator>
+<Timestamp>1970-01-01T01:14:00.000+01:00</Timestamp>
+<Originator>10</Originator>
 </AuditTrailEntry>
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">88 </Attribute>
- </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
 <EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>17</Originator>
+<Timestamp>1970-01-01T01:14:00.000+01:00</Timestamp>
+<Originator>10</Originator>
 </AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="2189" description="Simulated process instance"> 
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">98 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
 <EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>17</Originator>
+<Timestamp>1970-01-01T03:14:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:01:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:03:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:05:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:05:00.000+01:00</Timestamp>
+<Originator>10</Originator>
 </AuditTrailEntry>
 		</ProcessInstance> 
-        <ProcessInstance id="2190" description="Simulated process instance"> 
+        <ProcessInstance id="740" description="Simulated process instance"> 
 		</ProcessInstance> 
-        <ProcessInstance id="2309" description="Simulated process instance"> 
+        <ProcessInstance id="838" description="Simulated process instance"> 
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
 <Attribute name = "0">38 </Attribute>
  </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>16</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="2310" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">108 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>16</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="2311" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="2544" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "1">0 </Attribute>
-<Attribute name = "0">61 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente enfants</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>12</Originator>
-</AuditTrailEntry>
-<AuditTrailEntry>
-<Data><Attribute name = "1">0 </Attribute>
-<Attribute name = "0">61 </Attribute>
- </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>12</Originator>
-</AuditTrailEntry>
-<AuditTrailEntry>
-<Data><Attribute name = "1">0 </Attribute>
-<Attribute name = "0">61 </Attribute>
- </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>12</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="2545" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="2546" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="2573" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="2574" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="2575" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">0 </Attribute>
-<Attribute name = "0">182 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>8</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="2576" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="2577" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">50 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>8</Originator>
-</AuditTrailEntry>
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">50 </Attribute>
- </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>8</Originator>
-</AuditTrailEntry>
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">50 </Attribute>
- </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>8</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="2578" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="2663" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "1">0 </Attribute>
-<Attribute name = "0">37 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente enfants</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>10</Originator>
-</AuditTrailEntry>
-<AuditTrailEntry>
-<Data><Attribute name = "1">0 </Attribute>
-<Attribute name = "0">37 </Attribute>
- </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>10</Originator>
-</AuditTrailEntry>
-<AuditTrailEntry>
-<Data><Attribute name = "1">0 </Attribute>
-<Attribute name = "0">37 </Attribute>
- </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>10</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="2714" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "4">67 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
 <Originator>4</Originator>
 </AuditTrailEntry>
 		</ProcessInstance> 
-        <ProcessInstance id="2753" description="Simulated process instance"> 
+        <ProcessInstance id="849" description="Simulated process instance"> 
 		</ProcessInstance> 
-        <ProcessInstance id="2798" description="Simulated process instance"> 
+        <ProcessInstance id="869" description="Simulated process instance"> 
 		</ProcessInstance> 
-        <ProcessInstance id="2801" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">0 </Attribute>
-<Attribute name = "2">33 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>10</Originator>
-</AuditTrailEntry>
+        <ProcessInstance id="870" description="Simulated process instance"> 
 		</ProcessInstance> 
-        <ProcessInstance id="2813" description="Simulated process instance"> 
+        <ProcessInstance id="872" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="873" description="Simulated process instance"> 
+		</ProcessInstance> 
+        <ProcessInstance id="874" description="Simulated process instance"> 
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "4">13 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>4</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="2815" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="2841" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">33 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>4</Originator>
-</AuditTrailEntry>
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">33 </Attribute>
- </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>4</Originator>
-</AuditTrailEntry>
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">33 </Attribute>
- </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>4</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="2842" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "4">41 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>4</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="2882" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="2956" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">47 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>9</Originator>
-</AuditTrailEntry>
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">47 </Attribute>
- </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>9</Originator>
-</AuditTrailEntry>
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">47 </Attribute>
- </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>9</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="2957" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">39 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>9</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="2958" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="2959" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="2960" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="2961" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="2962" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="31" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">0 </Attribute>
-<Attribute name = "0">101 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>6</Originator>
-</AuditTrailEntry>
-<AuditTrailEntry>
-<Data><Attribute name = "0">0 </Attribute>
-<Attribute name = "0">101 </Attribute>
- </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>6</Originator>
-</AuditTrailEntry>
-<AuditTrailEntry>
-<Data><Attribute name = "0">0 </Attribute>
-<Attribute name = "0">101 </Attribute>
- </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>6</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="32" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="393" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="394" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="395" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="420" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">72 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>7</Originator>
-</AuditTrailEntry>
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">72 </Attribute>
- </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>7</Originator>
-</AuditTrailEntry>
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">72 </Attribute>
- </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>7</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="421" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">110 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>7</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="535" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="536" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">185 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>15</Originator>
-</AuditTrailEntry>
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">185 </Attribute>
- </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>15</Originator>
-</AuditTrailEntry>
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">185 </Attribute>
- </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>15</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="537" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="538" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="539" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="689" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">42 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>10</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="690" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "2">32 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>10</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="691" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">0 </Attribute>
-<Attribute name = "2">38 </Attribute>
- </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
-<EventType >complete</EventType>
-<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
-<Originator>10</Originator>
-</AuditTrailEntry>
-		</ProcessInstance> 
-        <ProcessInstance id="692" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="831" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="850" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="885" description="Simulated process instance"> 
-<AuditTrailEntry>
-<Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">215 </Attribute>
+<Attribute name = "0">199 </Attribute>
  </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
@@ -703,7 +2163,7 @@
 </AuditTrailEntry>
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">215 </Attribute>
+<Attribute name = "0">199 </Attribute>
  </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
@@ -711,16 +2171,78 @@
 </AuditTrailEntry>
 <AuditTrailEntry>
 <Data><Attribute name = "0">1 </Attribute>
-<Attribute name = "0">215 </Attribute>
+<Attribute name = "0">199 </Attribute>
  </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
 <EventType >complete</EventType>
 <Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
 <Originator>13</Originator>
 </AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">199 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>13</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">199 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:02:00.000+01:00</Timestamp>
+<Originator>13</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">199 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:06:00.000+01:00</Timestamp>
+<Originator>13</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">199 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:25:00.000+01:00</Timestamp>
+<Originator>13</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">199 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:27:00.000+01:00</Timestamp>
+<Originator>13</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">199 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:29:00.000+01:00</Timestamp>
+<Originator>13</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">199 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:29:00.000+01:00</Timestamp>
+<Originator>13</Originator>
+</AuditTrailEntry>
 		</ProcessInstance> 
-        <ProcessInstance id="886" description="Simulated process instance"> 
-		</ProcessInstance> 
-        <ProcessInstance id="887" description="Simulated process instance"> 
+        <ProcessInstance id="880" description="Simulated process instance"> 
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">308 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>13</Originator>
+</AuditTrailEntry>
 		</ProcessInstance> 
     </Process> 
 </WorkflowLog> 

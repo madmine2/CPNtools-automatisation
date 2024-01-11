@@ -1,0 +1,81 @@
+681
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Vers box de confid.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:12:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Checklist</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:12:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:14:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Vers salle d'op</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:14:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Operation</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T03:14:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Vers box de transf.</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:01:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Transfert</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:03:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Reveil</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:05:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "0">47 </Attribute>
+ </Data><WorkflowModelElement>Sortie</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T04:05:00.000+01:00</Timestamp>
+<Originator>10</Originator>
+</AuditTrailEntry>

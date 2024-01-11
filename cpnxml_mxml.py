@@ -76,7 +76,7 @@ def creerdata(file_path):
     return df
     
 fichier_mxml = 'templates/new_data_mxml.mxml'
-input_folder = "logsCPN"
+input_folder = "output/logsCPN"
 write_mxml_file(fichier_mxml, input_folder)
 
 df = creerdata(fichier_mxml)

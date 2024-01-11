@@ -122,7 +122,7 @@ def filtrer_et_modifier_cpn():
 
 if EXCEL_WITH_REVEIL :  
     #lecture du fichier .cpn existant
-    with open('templates/chwapi_avec_reveil.cpn', 'r') as fichier:
+    with open('templates/chwapi_avec_reveil2.cpn', 'r') as fichier:
         cpn_file = fichier.read()
     # lecture du fichier excel
     excel_file = pd.ExcelFile('Data_salle_reveil.xlsx')

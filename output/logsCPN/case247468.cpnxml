@@ -1,0 +1,9 @@
+247468
+<AuditTrailEntry>
+<Data><Attribute name = "0">1 </Attribute>
+<Attribute name = "1">33 </Attribute>
+ </Data><WorkflowModelElement>Salle d'attente adultes</WorkflowModelElement>
+<EventType >complete</EventType>
+<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+<Originator>11</Originator>
+</AuditTrailEntry>
